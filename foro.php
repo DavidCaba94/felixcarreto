@@ -34,7 +34,7 @@
 
                     <div class="navbar-brand">
                         
-                        <a class="navbar-caption" href="index.html">FÉLIX CARRETO</a>
+                        <a class="navbar-caption" href="/">FÉLIX CARRETO</a>
                     </div>
 
                 </div>
@@ -46,28 +46,28 @@
 
                     <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
                       <li class="nav-item">
-                        <a class="nav-link link" href="index.html">INICIO</a>
+                        <a class="nav-link link" href="/">INICIO</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link link" href="featured.html">NOVEDADES</a>
+                        <a class="nav-link link" href="featured">NOVEDADES</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link link" href="portfolio.html">GALERÍA</a>
+                        <a class="nav-link link" href="portfolio">GALERÍA</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link link" href="literatura.html">LITERATURA</a>
+                        <a class="nav-link link" href="literatura">LITERATURA</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link link" href="musica.html">MÚSICA</a>
+                        <a class="nav-link link" href="musica">MÚSICA</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link link" href="about.html">SOBRE MI</a>
+                        <a class="nav-link link" href="about">SOBRE MI</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link link" href="foro.php">FORO</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link link" href="contacto.html">CONTACTO</a>
+                        <a class="nav-link link" href="contacto">CONTACTO</a>
                       </li>
                     </ul>
                     <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
