@@ -64,7 +64,7 @@
                         <a class="nav-link link" href="about">SOBRE MI</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link link" href="foro.php">FORO</a>
+                        <a class="nav-link link" href="foro">FORO</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link link" href="contacto">CONTACTO</a>
@@ -87,7 +87,7 @@
   <div style="margin-top: 15%; margin-left: 20%; width: 60%;">
   <h2 style="color: white;">Deja tu opinión</h2>
     <div style="width: 100%; display: inline-block;">
-      <form name="formulario" method="post" action="comentario.php">
+      <form name="formulario" method="post" action="comentario">
         <input type="text" class="form-control" name="nombre" placeholder="Nombre" style="margin-top: 2px;">
         <input type="text" class="form-control" name="email" placeholder="Email" style="margin-top: 2px;">
         <textarea class="form-control" rows="5" name="comentario" placeholder="Comentario" style="margin-top: 2px;"></textarea>
