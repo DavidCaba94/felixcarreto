@@ -99,8 +99,8 @@
   <div style="margin-top: 5%; margin-left: 20%; width: 60%;">
 
     <?php
-      $conexion = mysqli_connect('localhost','id1417609_admin','cerezal6','id1417609_foro'); 
-      $tabla = mysqli_query($conexion,'SELECT * FROM comentarios ORDER BY id DESC;'); 
+      $conexion = mysqli_connect('db5000417476.hosting-data.io','dbu578774','Felixcarreto2020!','dbs399394'); 
+      $tabla = mysqli_query($conexion,"SELECT * FROM comentarios ORDER BY id DESC;"); 
       if (!$tabla) {
           printf("Error: %s\n", mysqli_error($con));
           exit();
