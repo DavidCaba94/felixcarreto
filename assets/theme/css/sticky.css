@@ -1,0 +1,74 @@
+
+.sticky-libro-desktop {
+    display: block;
+    position: fixed;
+    width: 180px;
+    height: 254px;
+    top: calc(100% - 270px);
+    left: calc(100% - 200px);
+    background-image: url(../../images/portada-sticky.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.titulo-sticky-desktop {
+    display: block;
+    margin-top: -70px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sticky-libro-movil {
+    display: none;
+}
+
+.titulo-sticky-movil {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .sticky-libro-desktop {
+        display: none;
+    }
+    
+    .titulo-sticky-desktop {
+        display: none;
+    }
+
+    .sticky-libro-movil {
+        display: block;
+        position: fixed;
+        width: 310px;
+        height: 80px;
+        top: calc(100% - 90px);
+        left: calc(50% - 155px);
+        background-color: #000000aa;
+        border-radius: 10px;
+        z-index: 9999;
+        padding: 5px;
+    }
+    
+    .titulo-sticky-movil {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .boton-novela {
+        width: 120px;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 10px;
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 25px;
+        padding-top: 4px;
+        text-align: center;
+    }
+}
