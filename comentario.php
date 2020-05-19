@@ -7,12 +7,17 @@
       $comentario=$_POST['comentario'];
 
 
+	  if (empty($_POST["nombre"]) || empty($_POST["email"]) || empty($_POST["comentario"])) {
+			echo '<script type="text/javascript">
+					alert("Lo sentimos, no se ha insertado su comentario. Todos los campos son obligatorios");
+				</script>';
+	  } else {
+			$conexion = mysqli_connect('db5000417476.hosting-data.io','dbu578774','Felixcarreto2020!','dbs399394'); 
 
-      $conexion = mysqli_connect('db5000417476.hosting-data.io','dbu578774','Felixcarreto2020!','dbs399394'); 
-
-      mysqli_query($conexion,"INSERT INTO comentarios (nombre,email,comentario) VALUES ('".$nombre."','".$email."','".$comentario."')");
-
-      mysqli_close($conexion); 
+			mysqli_query($conexion,"INSERT INTO comentarios (nombre,email,comentario) VALUES ('".$nombre."','".$email."','".$comentario."')");
+	
+			mysqli_close($conexion); 
+	  }
 
 ?>
 
@@ -66,7 +71,7 @@
 
 	<div style="margin-top: 20%; margin-left: 40%; width: 20%; text-align: center;">
 
-		<h1 style="color: white;">Gracias por dejar tu opinión</h1>
+		<h1 id="mensaje-confirm" style="color: white;">Gracias por dejar tu opinión</h1>
 
 		<form name="formulario" method="post" action="foro.php">
 

@@ -88,9 +88,9 @@
   <h2 style="color: white;">Deja tu opinión</h2>
     <div style="width: 100%; display: inline-block;">
       <form name="formulario" method="post" action="comentario">
-        <input type="text" class="form-control" name="nombre" placeholder="Nombre" style="margin-top: 2px;">
-        <input type="text" class="form-control" name="email" placeholder="Email" style="margin-top: 2px;">
-        <textarea class="form-control" rows="5" name="comentario" placeholder="Comentario" style="margin-top: 2px;"></textarea>
+        <input type="text" class="form-control" name="nombre" placeholder="*Nombre (Obligatorio)" style="margin-top: 2px;">
+        <input type="text" class="form-control" name="email" placeholder="*Email (Obligatorio)" style="margin-top: 2px;">
+        <textarea class="form-control" rows="5" name="comentario" placeholder="*Comentario (Obligatorio)" style="margin-top: 2px;"></textarea>
         <button type="submit" id="enviar" class="btn btn-success" style="margin-top: 2px; background-color: #56D06E;">Enviar</button>
       </form>
     </div>
