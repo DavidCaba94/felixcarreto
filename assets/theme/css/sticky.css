@@ -21,6 +21,7 @@
     color: #ffffff;
     text-align: center;
     font-weight: bold;
+    -webkit-text-stroke: 1px black;
 }
 
 .sticky-libro-movil {
