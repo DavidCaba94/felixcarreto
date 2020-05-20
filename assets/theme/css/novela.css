@@ -76,6 +76,35 @@ a:focus, a:hover {
     text-align: center;
 }
 
+.boton-foro {
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 25px;
+    padding-top: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boton-foro:hover {
+    background-color: #cccccc;
+}
+
+.box-redes {
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.compartir-redes {
+    width: 80px;
+    margin: 10px;
+}
+
 @media (max-width: 767px) {
     .titulo-novela {
         text-align: center;
