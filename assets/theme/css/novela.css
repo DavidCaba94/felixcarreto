@@ -67,7 +67,7 @@ a {
 
 a:focus, a:hover {
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .box-pdf {
@@ -95,13 +95,13 @@ a:focus, a:hover {
 
 .box-redes {
     display: flex;
-    max-width: 300px;
+    max-width: 180px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
 
 .compartir-redes {
-    width: 80px;
+    width: 40px;
     margin: 10px;
 }
 
