@@ -6,8 +6,10 @@
 
       $comentario=$_POST['comentario'];
 
+	  $check=$_POST['check'];
 
-	  if (empty($_POST["nombre"]) || empty($_POST["email"]) || empty($_POST["comentario"])) {
+
+	  if (empty($_POST["nombre"]) || empty($_POST["email"]) || empty($_POST["comentario"]) || !$check) {
 			echo '<script type="text/javascript">
 					alert("Lo sentimos, no se ha insertado su comentario. Todos los campos son obligatorios");
 				</script>';

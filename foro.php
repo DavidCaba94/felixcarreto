@@ -99,6 +99,7 @@
         <input type="text" class="form-control" name="nombre" placeholder="*Nombre (Obligatorio)" style="margin-top: 2px;">
         <input type="text" class="form-control" name="email" placeholder="*Email (Obligatorio)" style="margin-top: 2px;">
         <textarea class="form-control" rows="5" name="comentario" placeholder="*Comentario (Obligatorio)" style="margin-top: 2px;"></textarea>
+        <input type="checkbox" name="check"><span style="color: #ffffff; margin-left: 5px;">No soy un robot</span><br/>
         <button type="submit" id="enviar" class="btn btn-success" style="margin-top: 2px; background-color: #56D06E;">Enviar</button>
       </form>
     </div>
